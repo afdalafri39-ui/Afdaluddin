@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  background-color: #0f1117;
+  justify-content: center;
+  color: aliceblue;
+  align-items: center;
+  min-height: 100hv;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+h1,
+.Desk,
+.Pict {
+  text-align: center;
+}
+.Judul {
+  color: #ffffff;
+  background-color: #1e2028;
+  border: #94a3b8 5px solid;
+  width: 350px;
+  border-radius: 15px;
+  margin: auto;
+}
+.Judul2 {
+  background-color: #1e2028;
+  border: #94a3b8 5px solid;
+  color: aliceblue;
+  border: px solid;
+  padding: 3px;
+  border-radius: 5px;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Desk {
+  background-color: #1e2028;
+  border: #94a3b8 5px solid;
+  color: aliceblue;
+  border: px solid;
+  padding: 3px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 0 auto;
+}
+.Pict {
+  color: aliceblue;
+  background-color: #1e2028;
+  border: #94a3b8 5px solid;
+  border: px solid;
+  padding: 3px;
+  border-radius: 5px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.Pict:hover {
+  background-color: aqua;
+  box-shadow: 1px 3px 10px 10px aquamarine;
+  color: #0f1117;
+}
+.Judul:hover {
+  background-color: aqua;
+  color: #0f1117;
+  box-shadow: 1px 3px 10px 10px aquamarine;
+}
+.Desk:hover {
+  color: #0f1117;
+  background-color: aqua;
+  box-shadow: 1px 3px 10px 10px aquamarine;
+}
+.Judul2:hover {
+  color: #0f1117;
+  background-color: aqua;
+
+  box-shadow: 1px 3px 10px 10px aquamarine;
+  color: #0f1117;
+}
+img {
+  width: 500px;
+  transition: all 0.3s ease-in-out;
+  margin: 50px auto 0;
+  display: block;
+}
+
+p {
+  width: 70%;
+  height: 50px;
+  text-align: justify;
+}
+img:hover {
+  transform: scale(1.1);
+}
+a {
+  text-decoration: underline;
+  color: aliceblue;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+ul li a svg {
+  width: 80px;
+  height: 80px;
+}
+
+button {
+  width: 200px;
+  background-color: #1e2028;
+  color: #ffffff;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 10px;
+  height: 30px;
+  position: absolute;
+  left: 300px;
+  bottom: 50px;
+}
+audio {
+  display: none;
+}
+
+.Just {
+  background-color: aqua;
+  width: 200px;
+  border-radius: 12px;
+  text-align: center;
+  transition:
+    all 0,
+    1s ease-in-out;
+  padding: 5px;
+  color: #1e2028;
+}
+
+.Just:hover {
+  transform: scale(1.04);
+}
